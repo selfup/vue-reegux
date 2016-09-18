@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/selfup/reegux"
+    "url": "https://github.com/selfup/vue-reegux"
   },
   "author": "selfup",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/selfup/reegux"
+    "url": "https://github.com/selfup/vue-reegux"
   },
-  "homepage": "https://github.com/selfup/reegux",
+  "homepage": "https://github.com/selfup/vue-reegux",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.13.2",
