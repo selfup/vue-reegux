@@ -37,8 +37,6 @@ var mary = bindActionsToStore(maryState, maryActions)
 Vue.use(tom)
 Vue.addVueReeguxController(mary)
 
-console.log(Vue.$rgx.send('MARY_UP', 1))
-console.log(Vue.$rgx.send('TOM_UP', 1))
 console.log(Vue.$rgx)
 
 const vm = new Vue({
