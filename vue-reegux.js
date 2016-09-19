@@ -28,7 +28,7 @@ window.VueReegux = {
       }, {
         key: 'install',
         value: function install(Vue, options) {
-          Vue.$rgx = this;
+          Vue.$rgx = { state: this.state, actions: this.actions, send: this.send };
           Vue.addVueReeguxController = function (app) {
             Vue.$rgx.state = Object.assign({}, Vue.$rgx.state, app.state);
             Vue.$rgx.actions = Object.assign({}, Vue.$rgx.actions, app.actions);
