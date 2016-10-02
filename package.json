@@ -1,6 +1,6 @@
 {
   "name": "vue-reegux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple, namespaced, Redux/Flux for Vue.js!",
   "main": "./lib/main.js",
   "scripts": {
